@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="src/building.js"></script>
+    <script src="src/main.js"></script>
+    <title>Bee Clicker</title>
+</head>
+<body>
+    <h1>Bee Clicker</h1>
+    <h2>
+        It's Spring time and you decided to become a beekeeper. Start fresh and farm honey to make money!
+    </h2>
+
+    <h3>Score: <span class="score" id="score">0</span></h3>
+
+    <button type="button" onclick="scorePlusPlus()">Click Me!</button>
+
+    <h4>Buildings</h4>
+
+    <button type="button" id ="buyBees" onclick="bees.purchase()">
+        Buy Bees
+    </button>
+
+    <button type="button" id="buyAdvancedBees" onclick="advancedBees.purchase()">
+        Buy Advanced Bees
+    </button>
+</body>
+</html>
