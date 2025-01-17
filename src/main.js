@@ -1,11 +1,11 @@
 const tickRate = 1000 / 30; // 30 FPS
 let score = 0;
 
-let bees = new Building('Bees', 0.1, 15, 'buyBees');
-let advancedBees = new Building('Advanced Bees', 1, 50, 'buyAdvancedBees');
-let strongBees = new Building('Strong Bees', 2, 100, 'buyStrongBees');
-let queenBees = new Building('Queen Bees', 5, 250, 'buyQueenBees');
-let kingBees = new Building('King Bees', 15, 500, 'buyKingBees');
+let bees = new Building('Bees', 1, 15, 'buyBees');
+let advancedBees = new Building('Advanced Bees', 2, 50);
+let strongBees = new Building('Strong Bees', 5, 100);
+let queenBees = new Building('Queen Bees', 10, 250);
+let kingBees = new Building('King Bees', 20, 500);
 
 function scorePlusPlus() {
     score++;
