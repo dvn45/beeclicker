@@ -37,7 +37,7 @@ div.upgrades {
 display: flex;
 flex-direction: column;
 flex: 50%;
-height: 50%;
+height: 50vh;
 overflow: auto;
 }
 

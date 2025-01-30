@@ -9,6 +9,11 @@ let queenBees = new Building('Queen Bees', 10, 250);
 let kingBees = new Building('King Bees', 20, 500);
 
 let hiveTools1 = new HiveTools('Hive Tools I', 100, bees);
+let advancedHiveTools1 = new HiveTools('Advanced Hive Tools I', 500, advancedBees);
+let strongHiveTools1 = new HiveTools('Strong Hive Tools I', 1000, strongBees);
+let galacticHiveTools1 = new HiveTools('Galactic Hive Tools I', 2000, queenBees);
+let universalHiveTools1 = new HiveTools('Universal Hive Tools I', 400, kingBees);
+
 
 function scorePlusPlus() {
     score += clickStrength;
@@ -28,7 +33,13 @@ function updateButtons() {
     strongBees.buttonState();
     queenBees.buttonState();
     kingBees.buttonState();
+
     hiveTools1.buttonState();
+    advancedHiveTools1.buttonState();
+    strongHiveTools1.buttonState();
+    galacticHiveTools1.buttonState();
+    universalHiveTools1.buttonState();
+
 }
 
 function updatePage() {
