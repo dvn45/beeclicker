@@ -6,8 +6,8 @@ class HiveTools extends Upgrade {
 
     purchase(){
         super.purchase();
-        clickStrength++;
-        this.building.doubleUpgrade++;
+        clickStrength *= 2;
+        this.building.doubleUpgrade *= 2;
         this.building.applyDoubleUpgrade();
     }
 }

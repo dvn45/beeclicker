@@ -1,6 +1,10 @@
 body {
     margin: 0 15% 0 15%;
+    background-image: url(../../../media/imgs/beekeeping.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 
 header {
     text-align: center;
@@ -9,8 +13,10 @@ header {
 header > h2 {
     font-style: italic;
 }
+
 div.outer {
     border: 4px solid black;
+    background-color: rgba(255, 255, 150, 0.6);
 }
 
 div.click {
@@ -29,16 +35,17 @@ div.store {
 div.store-title {
     text-align: center;
     border-bottom: 4px solid black;
-
+    color: black;
+    font-size: 20px;
 }
 
 div.buildings,
 div.upgrades {
-display: flex;
-flex-direction: column;
-flex: 50%;
-height: 50vh;
-overflow: auto;
+    display: flex;
+    flex-direction: column;
+    flex: 60%;
+    height: 60vh;
+    overflow: auto;
 }
 
 div.buildings {
@@ -51,6 +58,7 @@ div.buildings {
     font-style: 1.25em;
     cursor: pointer;
     text-align: left;
+    background-color: #FDFD96;
 }
 
 .button:disabled:hover {
