@@ -10,6 +10,7 @@ let kingBees = new Building('King Bees', 20, 500);
 let empressBees = new Building('Empress Bees', 30, 1000);
 let emperorBees = new Building('Emperor Bees', 50, 1500);
 let almightyBees = new Building('Almighty Bees', 100, 3000);
+let robotBees = new Building('Robot Bees', 200, 5000);
 
 let hiveTools1 = new HiveTools('Hive Tools I', 100, bees);
 let advancedHiveTools1 = new HiveTools('Advanced Hive Tools I', 500, advancedBees);
@@ -34,6 +35,7 @@ function incScore() {
     score += empressBees.cps
     score += emperorBees.cps
     score += almightyBees.cps
+    score += robotBees.cps
 }
 
 function updateButtons() {
@@ -45,6 +47,7 @@ function updateButtons() {
     empressBees.buttonState();
     emperorBees.buttonState();
     almightyBees.buttonState();
+    robotBees.buttonState();
 
     hiveTools1.buttonState();
     advancedHiveTools1.buttonState();
